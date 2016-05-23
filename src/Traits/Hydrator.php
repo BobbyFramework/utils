@@ -1,9 +1,16 @@
 <?php
-namespace BobbyFramework\Utils;
+namespace BobbyFramework\Utils\Traits;
 
+/**
+ * Class Hydrator
+ * @package BobbyFramework\Utils\Traits
+ */
 trait Hydrator
 {
-    public function hydrate($data)
+    /**
+     * @param $data
+     */
+    public function hydrate(array $data)
     {
         foreach ($data as $key => $value) {
             $method = 'set' . ucfirst($key);

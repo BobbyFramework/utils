@@ -1,5 +1,5 @@
 <?php
-namespace BobbyFramework\Utils;
+namespace BobbyFramework\Utils\Traits;
 
 trait Singleton
 {

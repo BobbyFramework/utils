@@ -3,7 +3,6 @@ namespace BobbyFramework\Utils;
 
 class Crypt
 {
-
     public static function NTLMHash($Input)
     {
         $Input = iconv('UTF-8', 'UTF-16LE', $Input);
